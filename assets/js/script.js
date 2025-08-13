@@ -29,8 +29,8 @@ document.getElementById('generatePicBtn').addEventListener('click', async functi
     // 预加载所有背景图片
     const preloadImages = async () => {
         const imageUrls = [
-            'assets/img/thumb1/cover-card-default.png',
-            'assets/img/thumb1/detail-card-default.png'
+            'assets/img/thumb1/cover-card.png',
+            'assets/img/thumb1/detail-card.png'
         ];
         
         const loadImage = (url) => {
